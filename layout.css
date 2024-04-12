@@ -10,6 +10,9 @@ a{
   all: unset;
   text-decoration: none;
 }
+ul{
+  padding: 0;
+}
 /* 백그라운드 색 전체 조정 필요 */
 body>div{
   display: flex;
@@ -23,7 +26,7 @@ body>div{
 /* height set */
 /* 제품메인 */
 body>div>main>div>div:first-child>div:first-child{
-  height: 100vh;
+  height: 80vh;
 }
 body>div>main>div>div:first-child>div:first-child>div:nth-child(2){
   height: 100vh;
@@ -105,7 +108,7 @@ body>div>main{
 }
 /* 메뉴 */
 body>div>main>menu{
-  width: 60vw;
+  width: 70vw;
   height: 50px;
   margin: 0 auto;
   /* background-color: chocolate; */
@@ -161,7 +164,7 @@ body>div>main>div>div:first-child>div:first-child{
 }
 /* 이벤트 */
 body>div>main>div>div:first-child>div:first-child>div:first-child{
-  height: 5vh;
+  height: 7vh;
   width: 100%;
   /* background-color: dodgerblue; */
   display: flex;
@@ -171,7 +174,7 @@ body>div>main>div>div:first-child>div:first-child>div:first-child{
   text-align: center;
 }
 body>div>main>div>div:first-child>div:first-child>div:first-child>div{
-  width: 50vw;
+  width: 25vw;
   display: flex;
   flex-direction: row;
   justify-content: center;

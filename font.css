@@ -1,4 +1,40 @@
-html {
- font-size:10px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+body {
+ font-family : "Noto Sans KR", sans-serif;
+}
+
+top>div>span{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-weight: 400;
+}
+top>div>select>option{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 300;
+}
+top>div>button{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+main>menu{
+  font-size: .7em;
+  font-weight: 300;
+}
+main>menu>ul>li>i{
+  font-size: 1.2em;
+}
+
+.event{
+  font-size: .7em;
+  color : rgba(245, 245, 247, 1);
+}
+
+.main_banner > span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3em;
+  
 }
