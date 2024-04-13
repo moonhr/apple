@@ -43,5 +43,37 @@ main>menu{
   color: rgba(255, 255, 255, 0.8);
 }
 .main_banner>div:nth-child(2){
-  margin-left: 10em;
+  margin-left: 9em;
+  width: 70em;
+}
+.main_banner>button{
+  background: rgba(0, 113, 227, 1);
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  margin-top: 8em;
+}
+
+/* 제품설명 */
+main> div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+}
+.main_flow1{  
+  background: rgba(16, 16, 16, 1);
+  color: white;
+}
+.main_flow > div:nth-child(1){
+  align-items: end;
+}
+.main_flow1 > div:nth-child(1) > div:nth-child(2) > a{
+  display: inline-block;
+  margin-right: 1em;
+}
+.main_flow1 > div:nth-child(2) {
+  
+}
+.main_flow1 > div:nth-child(2) > div:nth-child(1){
+  width: 70vw;
+  height: 50vh;
+  background-color: black;
 }

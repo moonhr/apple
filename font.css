@@ -38,3 +38,21 @@ main>menu>ul>li>i{
   font-size: 1.3em;
   
 }
+.main_banner > span:nth-child(4){
+  color : rgba(245, 245, 247, 1);
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+.flow_title{
+  color: rgba(134, 134, 139, 1);
+  /* letter-spacing: .5px; */
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.bluelink{
+  color: rgba(41, 151, 255, 1);
+  font-size: 12px;
+  font-weight: 200;
+}
