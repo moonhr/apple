@@ -21,7 +21,7 @@ top>div>button{
 }
 
 main>menu{
-  font-size: .7em;
+  font-size: .6em;
   font-weight: 300;
 }
 main>menu>ul>li>i{
@@ -29,7 +29,7 @@ main>menu>ul>li>i{
 }
 
 .event{
-  font-size: .7em;
+  font-size: .6em;
   color : rgba(245, 245, 247, 1);
 }
 
@@ -55,4 +55,9 @@ main>menu>ul>li>i{
   color: rgba(41, 151, 255, 1);
   font-size: 12px;
   font-weight: 200;
+}
+
+.main_flow2 span {
+  font-size: .4em;
+  color : rgba(245, 245, 247, 1);
 }
